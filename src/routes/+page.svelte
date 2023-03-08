@@ -4,15 +4,7 @@
 <p>
   (Before Comp)
   <Comp>
-    <svelte:fragment slot="hidden"><p>This should be visible</p></svelte:fragment>
-    <svelte:fragment slot="alsoHidden"><p>This should be visible</p></svelte:fragment>
-    <div>
-      <section>
-        <span>
-          This should not!
-        </span>
-      </section>
-    </div>
+    <p>This shouldn't be visible.</p>
   </Comp>
   (After Comp)
 </p>
